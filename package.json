@@ -1,8 +1,39 @@
 {
-  "name": "react-native-facebook-account-kit",
-  "version": "1.0.2",
+  "_from": "react-native-facebook-account-kit@1.0.0",
+  "_id": "react-native-facebook-account-kit@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-hKi+mXwduPvAZwg8nQ9HAElIiXsYeYg35W0ENqLJvTTMKWrHKyYCAD0aMVH6Kl4tun8M984HQ28L/t00RdoZjQ==",
+  "_location": "/react-native-facebook-account-kit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-facebook-account-kit@1.0.0",
+    "name": "react-native-facebook-account-kit",
+    "escapedName": "react-native-facebook-account-kit",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-facebook-account-kit/-/react-native-facebook-account-kit-1.0.0.tgz",
+  "_shasum": "4e8ed55b96c007e81a610b25b7947b41bab55bcf",
+  "_spec": "react-native-facebook-account-kit@1.0.0",
+  "_where": "/Users/algeran/Documents/Projects/MustarReact",
+  "author": {
+    "name": "Underscope"
+  },
+  "bugs": {
+    "url": "https://github.com/underscopeio/react-native-facebook-account-kit/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "deprecated": false,
   "description": "A react-native library for Facebook Account Kit",
-  "main": "index.js",
   "files": [
     "android/src/main",
     "android/build.gradle",
@@ -13,6 +44,7 @@
     "ios/*.xcodeproj",
     "js"
   ],
+  "homepage": "https://github.com/underscopeio/react-native-facebook-account-kit#readme",
   "keywords": [
     "react",
     "native",
@@ -25,13 +57,12 @@
     "ios",
     "android"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-facebook-account-kit",
   "repository": {
     "type": "git",
-    "url": "https://github.com/underscopeio/react-native-facebook-account-kit.git"
+    "url": "git+https://github.com/underscopeio/react-native-facebook-account-kit.git"
   },
-  "author": "Underscope",
-  "license": "MIT",
-  "dependencies": {
-    "prop-types": "^15.5.10"
-  }
+  "version": "1.0.0"
 }

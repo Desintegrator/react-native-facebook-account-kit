@@ -29,8 +29,6 @@ class RNAccountKit {
     readPhoneStateEnabled: true,
     receiveSMS: true,
     theme: {},
-    viewControllerMode: 'present', // for iOS only
-    getACallEnabled: true
   }
 
   constructor() {
@@ -53,7 +51,7 @@ class RNAccountKit {
     }
 
     for (let key of Object.keys(options)) {
-      options.hasOwnProperty(key) || delete options[key]
+      options[key] || delete options[key]
     }
 
     const configOptions = {

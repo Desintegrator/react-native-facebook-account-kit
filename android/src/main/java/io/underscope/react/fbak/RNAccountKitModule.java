@@ -112,11 +112,7 @@ public class RNAccountKitModule extends ReactContextBaseJavaModule implements Ac
         final AccountKitConfiguration.AccountKitConfigurationBuilder configurationBuilder =
                 createAccountKitConfiguration(loginType);
         intent.putExtra(AccountKitActivity.ACCOUNT_KIT_ACTIVITY_CONFIGURATION, configurationBuilder.build());
-        try {
-            this.reactContext.startActivityForResult(intent, APP_REQUEST_CODE, new Bundle());
-        } catch (Error e) {
-            rejectPromise("error", new Error("Login aborted"));
-        }
+        this.reactContext.startActivityForResult(intent, APP_REQUEST_CODE, new Bundle());
     }
 
     @ReactMethod
